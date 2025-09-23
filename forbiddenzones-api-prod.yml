@@ -1,0 +1,5 @@
+build:
+  version: "1.0"
+
+forbiddenzones:
+  message: "Welcome to SISLEM forbiddenzones related prod APIs configuration"

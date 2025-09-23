@@ -1,0 +1,5 @@
+build:
+  version: "3.0"
+
+forbiddenzones:
+  message: "Welcome to SISLEM forbiddenzones related local APIs configuration"

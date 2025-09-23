@@ -1,0 +1,5 @@
+build:
+  version: "2.0"
+
+forbidden-zones:
+  message: "Welcome to SISLEM positions related QA APIs configuration"
