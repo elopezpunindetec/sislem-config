@@ -1,0 +1,5 @@
+app:
+  input-topic: positions.raw.v1
+  output-topic: device.position.normalized.v1
+  source: sislem-prod.kml
+  transaction-id-prefix: "sislem-positionsprocessor-${HOSTNAME:prod}-tx-"
