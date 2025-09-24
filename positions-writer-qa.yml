@@ -1,0 +1,11 @@
+app:
+  input-topic: device.position.normalized.v1
+  source: kafka
+  threshold-meters: 15
+
+outbox:
+  output-topic: device.position.changed.v1
+  publisher:
+    delay-ms: 750
+    batch-size: 200
+    send-timeout-ms: 4000
