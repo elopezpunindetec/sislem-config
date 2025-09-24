@@ -1,5 +1,5 @@
 app:
-  input-topic: positions.raw.v1
+  input-topic: sislem-topic
   output-topic: device.position.normalized.v1
   source: sislem.kml
-  transaction-id-prefix: "sislem-positionsprocessor-tx"
+  transaction-id-prefix: sislem-positions-processor-${HOSTNAME:local}-tx-
