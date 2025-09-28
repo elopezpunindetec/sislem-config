@@ -1,0 +1,3 @@
+app:
+  input-topic: device.position.changed.v1
+  source: kafka
