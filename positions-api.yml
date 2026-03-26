@@ -1,5 +1,5 @@
 build:
   version: "3.0"
 
-forbidden-zones:
+positions-api:
   message: "Welcome to SISLEM positions related local APIs configuration"

@@ -1,5 +1,5 @@
 build:
   version: "1.0"
 
-positions:
+positions-api:
   message: "Welcome to SISLEM positions related prod APIs configuration"
