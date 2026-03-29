@@ -2,7 +2,7 @@ app:
   input-topic: device.position.normalized.v1
   source: kafka
   threshold-meters: 15
-  listener-concurrency: 1
+  listener-concurrency: 4
 
 outbox:
   output-topic: device.position.changed.v1
